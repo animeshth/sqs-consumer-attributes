@@ -1,0 +1,70 @@
+{
+  "name": "sqs-consumer",
+  "version": "2.1.2",
+  "description": "Build SQS-based Node applications without the boilerplate",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha",
+    "coverage": "istanbul cover _mocha -- -R dot && open coverage/lcov-report/index.html",
+    "lcov": "istanbul cover _mocha -- -R dot"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/BBC/sqs-consumer.git"
+  },
+  "bugs": {
+    "url": "https://github.com/BBC/sqs-consumer/issues"
+  },
+  "homepage": "https://github.com/BBC/sqs-consumer",
+  "keywords": [
+    "sqs",
+    "queue",
+    "consumer"
+  ],
+  "author": {
+    "name": "robin@robinmurphy.co.uk"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "istanbul": "^0.3.5",
+    "mocha": "^2.0.1",
+    "sinon": "^1.10.3"
+  },
+  "dependencies": {
+    "async": "^0.9.0",
+    "aws-sdk": "^2.0.23",
+    "codeclimate-test-reporter": "0.0.4",
+    "debug": "^2.1.0"
+  },
+  "gitHead": "d0856e8851e3e7b4f588bc66de16895ca3b08c5c",
+  "_id": "sqs-consumer@2.1.2",
+  "_shasum": "f35c6e3713742121f16142f6cc16946e3f2abc8b",
+  "_from": "sqs-consumer@*",
+  "_npmVersion": "2.8.3",
+  "_nodeVersion": "0.10.36",
+  "_npmUser": {
+    "name": "robinmurphy",
+    "email": "robin@robinmurphy.co.uk"
+  },
+  "dist": {
+    "shasum": "f35c6e3713742121f16142f6cc16946e3f2abc8b",
+    "tarball": "http://registry.npmjs.org/sqs-consumer/-/sqs-consumer-2.1.2.tgz"
+  },
+  "maintainers": [
+    {
+      "name": "robinmurphy",
+      "email": "robin@robinmurphy.co.uk"
+    },
+    {
+      "name": "nspragg",
+      "email": "nspragg@gmail.com"
+    },
+    {
+      "name": "hjerling",
+      "email": "hjerling.johan@gmail.com"
+    }
+  ],
+  "directories": {},
+  "_resolved": "https://registry.npmjs.org/sqs-consumer/-/sqs-consumer-2.1.2.tgz",
+  "readme": "ERROR: No README data found!"
+}
